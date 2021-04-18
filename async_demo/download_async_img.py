@@ -3,8 +3,10 @@
 
 """
 @author:sunzhihua
-@filename:new_py.py
-@time:2021/4/17 9:59
+@filename:download_async_img.py
+@time:2021/4/18 12:17
 @descirpt:
 """
+
+
 
