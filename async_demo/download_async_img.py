@@ -37,7 +37,7 @@ async def main():
             "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2778703682,2632588954&fm=26&gp=0.jpg",
             "https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1756712057,3191802878&fm=26&gp=0.jpg",
             "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3908906577,4133291635&fm=26&gp=0.jpg",
-            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3275569617,4294256196&fm=26&gp=0.jpg",
+            "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3275569617,4294256196&fm=26&gp=0.jpg"
         ]
         tasks = [
             asyncio.create_task(fetch(session, url)) for url in url_list

@@ -7,7 +7,7 @@
 @time:2021/4/19 12:24
 @descirpt:concurrent.futures.Future对象
 """
-
+import asyncio
 import time
 from concurrent.futures import Future
 from concurrent.futures.thread import ThreadPoolExecutor
@@ -24,7 +24,6 @@ pool = ThreadPoolExecutor(max_workers=5)
 
 # 创建进程池
 # pool = ProcessPoolExecutor(max_workers=5)
-
 
 for i in range(10):
     fut = pool.submit(fun, i)
