@@ -37,4 +37,4 @@ if __name__ == '__main__':
     ]
     dwonload_image(url_list)
     dt = datetime.now() - t0
-    print(Fore.WHITE + '一共用时:%.1f秒.' % (dt.total_seconds()*10))
+    print(Fore.WHITE + '一共用时:%.1f秒.' % (dt.total_seconds() * 10))
